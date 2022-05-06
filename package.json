@@ -1,38 +1,38 @@
 {
- "name": "clon-de-google-drive",
- "version": "1.0.0",
- "description": "Google Drive es un servicio de alojamiento de archivos que fue introducido por la empresa estadounidense Google el 24 de abril de 2012. Antes llamado Google Docs que ha cambiado su dirección URL, entre otras cosas. Es uno de los sitios de alojamiento más conocidos en el mundo. ",
- "main": "src/main.jsx",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
- },
- "repository": {
-  "type": "git",
-  "url": "git+https://github.com/francocarballar/clon-de-google-drive.git"
- },
- "keywords": [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React"
- ],
- "author": "Franco Carballar <francocarballar@gmail.com>",
- "license": "MIT",
- "bugs": {
-  "url": "https://github.com/francocarballar/clon-de-google-drive/issues"
- },
- "dependencies": {
-  "react": "^18.0.0",
-  "react-dom": "^18.0.0",
-  "react-router-dom": "^6.3.0"
- },
- "devDependencies": {
-  "@types/react": "^18.0.0",
-  "@types/react-dom": "^18.0.0",
-  "@vitejs/plugin-react": "^1.3.0",
-  "standard": "^17.0.0",
-  "vite": "^2.9.7"
- }
+"name": "clon-de-google-drive",
+"version": "1.0.0",
+"description": "Google Drive es un servicio de alojamiento de archivos que fue introducido por la empresa estadounidense Google el 24 de abril de 2012. Antes llamado Google Docs que ha cambiado su dirección URL, entre otras cosas. Es uno de los sitios de alojamiento más conocidos en el mundo. ",
+"main": "src/main.jsx",
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+},
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/francocarballar/clon-de-google-drive.git"
+},
+"keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+],
+"author": "Franco Carballar <francocarballar@gmail.com>",
+"license": "MIT",
+"bugs": {
+    "url": "https://github.com/francocarballar/clon-de-google-drive/issues"
+},
+    "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+    },
+"devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.2",
+    "standard": "^17.0.0",
+    "vite": "^2.9.8"
+}
 }
