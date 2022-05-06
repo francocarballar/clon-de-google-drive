@@ -4,5 +4,5 @@ Google Drive es un servicio de alojamiento de archivos que fue introducido por l
 Clon de Google Drive, es una proyecto creado para prácticar los conceptos del desarrollo web. Su única intención es imitar la apariencia y el funcionamiento de www.drive.google.com, no tiene como objetivo reemplazar o sustituir la página oficial de Google Drive.
 ## Autores 
 
-Franco Carballar [@francocarballar](https://github.com/francocarballar)
-Juan Espínola [@juanespinola05](https://github.com/juanespinola05)
+- Franco Carballar [@francocarballar](https://github.com/francocarballar)
+- Juan Espínola [@juanespinola05](https://github.com/juanespinola05)
