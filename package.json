@@ -1,0 +1,40 @@
+{
+  "name": "clon-de-google-drive",
+  "version": "1.0.0",
+  "description": "Google Drive es un servicio de alojamiento de archivos que fue introducido por la empresa estadounidense Google el 24 de abril de 2012. Antes llamado Google Docs que ha cambiado su dirección URL, entre otras cosas. Es uno de los sitios de alojamiento más conocidos en el mundo. ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francocarballar/clon-de-google-drive.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+  ],
+  "author": "Franco Carballar <francocarballar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francocarballar/clon-de-google-drive/issues"
+  },
+  "homepage": "https://github.com/francocarballar/clon-de-google-drive#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
