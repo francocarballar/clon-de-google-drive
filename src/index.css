@@ -15,6 +15,7 @@
   --color-gray: rgba(101, 101, 101, 1);
   --header__text-color: #212121;
   --header__background-color: #c1c1c1;
+  --sidebar__border-color: #d5d5d5;
 }
 html {
   font-size: 62.5%;
