@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   scroll-behavior: smooth;
   --color-white: rgba(255, 255, 255, 1);
@@ -14,14 +13,19 @@
   --color-yellow: rgba(244, 180, 0, 1);
   --color-green: rgba(15, 157, 88, 1);
   --color-gray: rgba(101, 101, 101, 1);
+  --header__text-color: #212121;
+  --header__background-color: #c1c1c1;
 }
-
+html {
+  font-size: 62.5%;
+}
 body {
+  width: 100vw;
+  height: 100vh;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 img {
   display: block;
   width: 100%;
