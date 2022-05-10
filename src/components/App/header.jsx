@@ -5,22 +5,18 @@ import menuIcon from '../../assets/icons/menu_icon.svg';
 import searchIcon from '../../assets/icons/search_icon.svg';
 import viewIcon from '../../assets/icons/view_icon.svg';
 import threePointsIcon from '../../assets/icons/three-points_icon.svg';
-import { render } from 'react-dom';
 
 
 function Header () {
-    const clickMenuIcon = () => {
-        return (
-            <Sidebar />
-        );
-    }
+    const [menuOpened, setMenuOpened] = useState(false);
+    {menuOpened && <Sidebar />}
     return (
         <header className="header">
             <nav className="header__nav">
                 <ul className="header__ul">
                     <div className="header__container--menu">
                         <li>
-                            <img src={menuIcon} alt='icon menu' id='header__menu--icon' onClick={clickMenuIcon}/>
+                            <img src={menuIcon} alt='icon menu' id='header__menu--icon' onClick={() => setMenuOpened(!menuOpened)}/>
                         </li>
                         <li>Mi unidad</li>
                     </div>
