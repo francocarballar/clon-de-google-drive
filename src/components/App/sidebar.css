@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 85%;
     max-width: 320px;
@@ -16,6 +16,40 @@
     height: 100%;
     list-style: none;
 }
+.sidebar__ul
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--sidebar__border-color);
+}
+.sidebar__ul
+li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    color: var(--header__text-color);
+    font-size: var(--mobile__font-size);
+    cursor: pointer;
+}
+.sidebar__ul
+a {
+    color: var(--header__text-color);
+    font-size: var(--mobile__font-size);
+    text-decoration: none;
+}
+.sidebar__ul
+a:hover {
+    text-decoration: underline;
+}
+.sidebar__ul
+li:hover {
+    background-color: var(--sidebar__li-hover);
+}
 .sidebar__container-account {
     display: flex;
     flex-direction: column;
@@ -23,6 +57,14 @@
     align-items: flex-start;
     padding: 15px;
     border-bottom: 1px solid var(--sidebar__border-color);
+}
+.sidebar__container-account
+li {
+    padding: 0;
+}
+.sidebar__container-account
+li:hover {
+    background-color: transparent;
 }
 .sidebar__container-account
 #sidebar__img--profile-picture {
@@ -34,5 +76,45 @@
     margin-top: 10px;
     margin-left: 5px;
     color: var(--header__text-color);
-    font-size: 1.4rem;
+    font-size: var(--mobile__font-size);
+}
+.sidebar__img--icons {
+    margin-right: 15px;
+    width: 24px;
+    height: auto;
+}
+.sidebar__container-links {
+    padding: 15px 0;
+}
+.sidebar__container-links
+li {
+    padding: 10px 15px;
+}
+.sidebar__container-links
+li:hover {
+    background-color: transparent;
+}
+#sidebar__li--storage {
+    height: auto;
+}
+#sidebar__li--storage:hover {
+    background-color: transparent;
+}
+#sidebar__li--storage
+a:hover {
+    text-decoration: none;
+}
+.sidebar__conatiner-google-drive-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--sidebar__li-hover);
+}
+.sidebar__conatiner-google-drive-download
+li {
+    color: #4285f4;
 }
