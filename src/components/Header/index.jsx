@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './header.css'
+import './Header.css'
 import menuIcon from '../../assets/icons/menu_icon.svg'
 import searchIcon from '../../assets/icons/search_icon.svg'
 import viewIcon from '../../assets/icons/view_icon.svg'
@@ -17,7 +17,9 @@ function Header ({ state, setState }) {
                   src={menuIcon}
                   alt='icon menu'
                   id='header__menu--icon'
-                  onClick={(e) => { setState(!state) }}
+                  onClick={e => {
+                    setState(!state)
+                  }}
                 />
               </li>
               <li>Mi unidad</li>
