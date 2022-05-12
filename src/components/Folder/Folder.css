@@ -1,0 +1,24 @@
+.folder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 10px 15px;
+    width: 98%;
+    height: 90%;
+    color: var(--header__text-color);
+    font-size: var(--mobile__font-size--title);
+    background-color: var(--main__background-color--folders);
+    cursor: pointer;
+}
+.folder__icon--folder {
+    margin-right: 5px;
+}
+.folder__icon--important {
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 0;
+    margin-right: 15px;
+    width: 20px;
+}

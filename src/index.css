@@ -9,6 +9,7 @@
   scroll-behavior: smooth;
 
   --mobile__font-size: 1.4rem;
+  --mobile__font-size--title: 1.2rem;
 
   --color-white: rgba(255, 255, 255, 1);
   --color-blue: rgba(66, 133, 244, 1);
@@ -20,6 +21,9 @@
   --header__background-color: #c1c1c1;
   --sidebar__border-color: #d5d5d5;
   --sidebar__li-hover: #eee;
+  --main__background-color: #eee;
+  --main__title: #616161;
+  --main__background-color--folders: #fff;
 }
 html {
   font-size: 62.5%;

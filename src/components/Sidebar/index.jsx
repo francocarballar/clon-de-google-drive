@@ -1,12 +1,13 @@
 import React from 'react'
 import './Sidebar.css'
-import profilePicture from '../../assets/img/account.png'
-import arrow from '../../assets/icons/arrow_icon.svg'
-import myUnit from '../../assets/icons/my-unit_icon.svg'
-import people from '../../assets/icons/people.svg'
-import clock from '../../assets/icons/clock.svg'
-import star from '../../assets/icons/star.svg'
-import googleDrive from '../../assets/icons/google-drive_logo.svg'
+import { SidebarLi } from '../Sidebar__li'
+import profilePicture from '../../assets/img/Sidebar/account.png'
+import arrow from '../../assets/icons/Sidebar/arrow_icon.svg'
+import myUnit from '../../assets/icons/Sidebar/my-unit_icon.svg'
+import people from '../../assets/icons/Sidebar/people.svg'
+import clock from '../../assets/icons/Sidebar/clock.svg'
+import star from '../../assets/icons/Sidebar/star.svg'
+import googleDrive from '../../assets/icons/Sidebar/google-drive_logo.svg'
 
 function Sidebar ({ state }) {
   return (
@@ -32,38 +33,26 @@ function Sidebar ({ state }) {
               </li>
             </div>
             <div>
-              <li>
-                <img
-                  src={myUnit}
-                  alt='Icono de mi unidad'
-                  className='sidebar__img--icons'
-                />
-                Mi unidad
-              </li>
-              <li>
-                <img
-                  src={people}
-                  alt='Icono de personas que simboliza la acción de compartir'
-                  className='sidebar__img--icons'
-                />
-                Compartidos conmigo
-              </li>
-              <li>
-                <img
-                  src={clock}
-                  alt='Icono de un reloj que simboliza los archivos recientes'
-                  className='sidebar__img--icons'
-                />
-                Recientes
-              </li>
-              <li>
-                <img
-                  src={star}
-                  alt='Icono de un estrella que simboliza los archivos destacados'
-                  className='sidebar__img--icons'
-                />
-                Destacados
-              </li>
+              <SidebarLi
+                text='Mi unidad'
+                imgSrc={myUnit}
+                imgDescription='Icono de mi unidad'
+              />
+              <SidebarLi
+                text='Compartidos conmigo'
+                imgSrc={people}
+                imgDescription='Icono de personas que simboliza la acción de compartir'
+              />
+              <SidebarLi
+                text='Recientes'
+                imgSrc={clock}
+                imgDescription='Icono de un reloj que simboliza los archivos recientes'
+              />
+              <SidebarLi
+                text='Destacados'
+                imgSrc={star}
+                imgDescription='cono de un estrella que simboliza los archivos destacados'
+              />
             </div>
             <div className='sidebar__container-links'>
               <li>

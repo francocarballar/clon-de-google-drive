@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    height: calc(100vh - 5.6rem);
+    background-color: var(--main__background-color);
+}
+.main 
+h2 {
+    margin: 10px 20px;
+    color: var(--main__title);
+    font-size: var(--mobile__font-size--title);
+    font-weight: 400;
+}
+.main__container-folders {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}

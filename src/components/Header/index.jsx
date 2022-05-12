@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './Header.css'
-import menuIcon from '../../assets/icons/menu_icon.svg'
-import searchIcon from '../../assets/icons/search_icon.svg'
-import viewIcon from '../../assets/icons/view_icon.svg'
-import threePointsIcon from '../../assets/icons/three-points_icon.svg'
+import menuIcon from '../../assets/icons/Header/menu_icon.svg'
+import searchIcon from '../../assets/icons/Header/search_icon.svg'
+import viewIcon from '../../assets/icons/Header/view_icon.svg'
+import threePointsIcon from '../../assets/icons/Header/three-points_icon.svg'
 
 function Header ({ state, setState }) {
   return (
