@@ -6,6 +6,7 @@ import viewIcon from '../../assets/icons/Header/view_icon.svg'
 import threePointsIcon from '../../assets/icons/Header/three-points_icon.svg'
 
 function Header ({ state, setState }) {
+  const body = document.body;
   return (
     <>
       <header className='header'>
@@ -18,7 +19,8 @@ function Header ({ state, setState }) {
                   alt='icon menu'
                   id='header__menu--icon'
                   onClick={e => {
-                    setState(!state)
+                    setState(!state);
+                    body.style.overflow = 'hidden';
                   }}
                 />
               </li>

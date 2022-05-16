@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 import {Folder} from '../Folder/index';
-// import {FIle} from '../File/File';
+import {File} from '../File/index';
 
 function Main () {
     return (
@@ -28,7 +28,12 @@ function Main () {
                 </div>
                 <h2>Archivos</h2>
                 <div className='main__container-files'>
-                    {/* <File /> */}
+                    <File text='Cornell Notes'/>
+                    <File text='Cornell Notes'/>
+                    <File text='Cornell Notes'/>
+                    <File text='Cornell Notes'/>
+                    <File text='Cornell Notes'/>
+                    <File text='Cornell Notes'/>
                 </div>
             </main>
         </React.Fragment>

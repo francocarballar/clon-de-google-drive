@@ -9,9 +9,9 @@ import clock from '../../assets/icons/Sidebar/clock.svg'
 import star from '../../assets/icons/Sidebar/star.svg'
 import googleDrive from '../../assets/icons/Sidebar/google-drive_logo.svg'
 
-function Sidebar ({ state }) {
+function Sidebar ({ state, setState }) {
   return (
-    <>
+    <React.Fragment>
       {state && (
         <div className='sidebar'>
           <ul className='sidebar__ul'>
@@ -95,7 +95,7 @@ function Sidebar ({ state }) {
           </ul>
         </div>
       )}
-    </>
+    </React.Fragment>
   )
 }
 
